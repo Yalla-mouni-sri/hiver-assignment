@@ -13,8 +13,8 @@ When cloned, the repository runs completely **self-contained** without requiring
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone (https://github.com/Yalla-mouni-sri/hiver-assignment)
-cd <YOUR_REPO_NAME>
+git clone https://github.com/Yalla-mouni-sri/hiver-assignment
+cd hiver-assignment
 pip install -r requirements.txt
 ```
 
