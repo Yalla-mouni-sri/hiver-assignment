@@ -1,0 +1,23 @@
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Data (large raw files)
+data/raw/
+*.zip
+*.gz
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/

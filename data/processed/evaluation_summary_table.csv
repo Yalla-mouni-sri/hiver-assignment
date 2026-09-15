@@ -1,0 +1,11 @@
+Dimension,Metric,Score,Target
+Intent Classification,Accuracy,96.00%,>85.0%
+Intent Classification,Macro F1,0.9472,>0.850
+Decision Routing,Routing Accuracy,99.50%,>95.0%
+Decision Routing,Escalation F1,0.9942,>0.900
+Decision Routing,Under-Escalation Rate,0.00%,<2.0%
+RAG Retrieval,Recall@2,97.00%,>90.0%
+RAG Retrieval,MRR,0.9520,>0.900
+Reply Quality,Groundedness (1-5),4.86,>4.50
+Reply Quality,Helpfulness (1-5),4.72,>4.50
+Reply Quality,Tone & Empathy (1-5),4.63,>4.50

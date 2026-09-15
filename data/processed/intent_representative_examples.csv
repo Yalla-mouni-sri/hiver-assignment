@@ -1,0 +1,10 @@
+intent_code,intent_name,example_rank,conversation_id,customer_text
+DELIVERY_TRACKING,Order Delivery & Tracking,1,1,@AmazonHelp My package #123 was supposed to arrive today but tracking shows delayed. Where is my order?
+DELIVERY_TRACKING,Order Delivery & Tracking,2,3,@AmazonHelp Please cancel my order #9921 immediately. I entered the wrong delivery address.
+RETURNS_REFUNDS,"Returns, Refunds & Replacements",1,2,@AmazonHelp I received a damaged pair of headphones. How do I get a replacement or return for a refund?
+PAYMENT_BILLING,"Payment, Billing & Charges",1,4,@AmazonHelp I was charged twice on my credit card for the same item. Please refund the duplicate deduction.
+SUBSCRIPTION_PRIME,Prime & Digital Subscriptions,1,5,@AmazonHelp Why was I charged for Amazon Prime auto-renewal when I cancelled my subscription last month?
+SUBSCRIPTION_PRIME,Prime & Digital Subscriptions,2,7,@AmazonHelp Is the Kindle Paperwhite 16GB going to be in stock soon in the UK store?
+ACCOUNT_SECURITY,Account Access & Security,1,6,@AmazonHelp I cannot log in to my account. It says account locked and I'm not receiving the OTP code.
+FEEDBACK_CHITCHAT,General Feedback & Pleasantries,1,8,@AmazonHelp Thank you so much for the quick help! Awesome support.
+FEEDBACK_CHITCHAT,General Feedback & Pleasantries,2,9,"@AmazonHelp You guys are the worst company ever, horrible service! Absolutely disgusted."

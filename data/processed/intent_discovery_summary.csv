@@ -1,0 +1,7 @@
+intent_code,intent_name,count,percentage,risk_level,default_decision
+DELIVERY_TRACKING,Order Delivery & Tracking,2,22.22,LOW,AUTO_HANDLE
+SUBSCRIPTION_PRIME,Prime & Digital Subscriptions,2,22.22,MEDIUM,AUTO_HANDLE
+FEEDBACK_CHITCHAT,General Feedback & Pleasantries,2,22.22,LOW,AUTO_HANDLE
+RETURNS_REFUNDS,"Returns, Refunds & Replacements",1,11.11,MEDIUM,AUTO_HANDLE
+PAYMENT_BILLING,"Payment, Billing & Charges",1,11.11,HIGH,ESCALATE_HUMAN
+ACCOUNT_SECURITY,Account Access & Security,1,11.11,CRITICAL,ESCALATE_HUMAN

@@ -1,0 +1,159 @@
+{
+    "DELIVERY_TRACKING": {
+        "name": "Order Delivery & Tracking",
+        "definition": "Questions regarding late delivery, tracking number updates, courier delays, or orders marked delivered but not received.",
+        "keywords": [
+            "\\bdeliver(?:y|ed|ing|s)?\\b",
+            "\\btrack(?:ing)?\\b",
+            "\\bpackage(?:s)?\\b",
+            "\\bparcel(?:s)?\\b",
+            "\\bcourier\\b",
+            "\\bcarrier\\b",
+            "\\blate\\b",
+            "\\bdelay(?:ed|s)?\\b",
+            "\\bdispatch(?:ed)?\\b",
+            "\\bwhere is (?:my|the)\\b",
+            "\\barriv(?:e|ed|al|ing)\\b",
+            "\\bexpected\\b",
+            "\\btransit\\b",
+            "\\bnot (?:yet )?received\\b"
+        ],
+        "risk_level": "LOW",
+        "default_decision": "AUTO_HANDLE"
+    },
+    "RETURNS_REFUNDS": {
+        "name": "Returns, Refunds & Replacements",
+        "definition": "Requests for returning an item, inquiring about refund progress, requesting replacement, or reporting damaged, broken, missing, or wrong items.",
+        "keywords": [
+            "\\brefund(?:ed|ing|s)?\\b",
+            "\\breturn(?:ed|ing|s)?\\b",
+            "\\breplace(?:ment|d|ing)?\\b",
+            "\\bdamag(?:e|ed|ing)\\b",
+            "\\bbroken\\b",
+            "\\bfaulty\\b",
+            "\\bdefective\\b",
+            "\\bwrong (?:item|product|order)\\b",
+            "\\bmissing (?:item|parts|item)\\b",
+            "\\bmoney back\\b",
+            "\\bpick ?up\\b",
+            "\\bitem condition\\b"
+        ],
+        "risk_level": "MEDIUM",
+        "default_decision": "AUTO_HANDLE"
+    },
+    "CANCELLATION_MODIFICATION": {
+        "name": "Order Cancellation & Modification",
+        "definition": "Requests to cancel an existing order or change order parameters (delivery address, delivery slot, quantity, or shipping method) before dispatch.",
+        "keywords": [
+            "\\bcancel(?:led|ling|lation|s)?\\b",
+            "\\bchange address\\b",
+            "\\bwrong address\\b",
+            "\\bupdate address\\b",
+            "\\bmodify order\\b",
+            "\\bchange (?:the )?order\\b",
+            "\\bstop (?:the )?order\\b",
+            "\\bcancel order\\b"
+        ],
+        "risk_level": "MEDIUM",
+        "default_decision": "AUTO_HANDLE"
+    },
+    "PAYMENT_BILLING": {
+        "name": "Payment, Billing & Charges",
+        "definition": "Issues regarding double charges, unexpected deductions, payment method failures, gift card balances, vouchers, promo codes, or invoice requests.",
+        "keywords": [
+            "\\bcharg(?:e|ed|ing|es)\\b",
+            "\\bpayment(?:s)?\\b",
+            "\\bdeduct(?:ed|ion)?\\b",
+            "\\bcredit card\\b",
+            "\\bdebit card\\b",
+            "\\bbank\\b",
+            "\\binvoice\\b",
+            "\\bdouble charg\\w*\\b",
+            "\\bgift card\\b",
+            "\\bpromo(?:tion)? code\\b",
+            "\\bvoucher\\b",
+            "\\bbalance\\b",
+            "\\bunauthorized charg\\w*\\b"
+        ],
+        "risk_level": "HIGH",
+        "default_decision": "ESCALATE_HUMAN"
+    },
+    "SUBSCRIPTION_PRIME": {
+        "name": "Prime & Digital Subscriptions",
+        "definition": "Inquiries or issues regarding Amazon Prime membership, annual renewal charges, Prime Video / Music streaming errors, Kindle Unlimited, or subscription cancellation.",
+        "keywords": [
+            "\\bprime\\b",
+            "\\bmembership\\b",
+            "\\bsubscription(?:s)?\\b",
+            "\\bprime video\\b",
+            "\\bprime music\\b",
+            "\\bauto[ -]?renew\\w*\\b",
+            "\\bannual fee\\b",
+            "\\bstudent prime\\b",
+            "\\bkindle\\b",
+            "\\bunsubscribe\\b"
+        ],
+        "risk_level": "MEDIUM",
+        "default_decision": "AUTO_HANDLE"
+    },
+    "ACCOUNT_SECURITY": {
+        "name": "Account Access & Security",
+        "definition": "Troubles logging in, password reset issues, two-factor authentication (OTP/2FA) failure, suspended/locked accounts, or suspected unauthorized account access.",
+        "keywords": [
+            "\\blogin\\b",
+            "\\bsign in\\b",
+            "\\bpassword\\b",
+            "\\botp\\b",
+            "\\b2fa\\b",
+            "\\bverification code\\b",
+            "\\blocked account\\b",
+            "\\bsuspended\\b",
+            "\\bunauthorized\\b",
+            "\\bhack(?:ed)?\\b",
+            "\\baccess (?:my )?account\\b",
+            "\\bsecurity\\b",
+            "\\brecover account\\b"
+        ],
+        "risk_level": "CRITICAL",
+        "default_decision": "ESCALATE_HUMAN"
+    },
+    "PRODUCT_INQUIRY": {
+        "name": "Product & Stock Inquiry",
+        "definition": "Questions regarding stock availability, restock dates, product compatibility, technical specifications, seller authenticity, or warranty coverage.",
+        "keywords": [
+            "\\bin stock\\b",
+            "\\bout of stock\\b",
+            "\\bavailab(?:le|ility)\\b",
+            "\\brestock(?:ed)?\\b",
+            "\\bauthentic\\b",
+            "\\bgenuine\\b",
+            "\\bseller\\b",
+            "\\bwarranty\\b",
+            "\\bspecification(?:s)?\\b",
+            "\\bprice match\\b",
+            "\\bcompatib\\w*\\b"
+        ],
+        "risk_level": "LOW",
+        "default_decision": "AUTO_HANDLE"
+    },
+    "FEEDBACK_CHITCHAT": {
+        "name": "General Feedback & Pleasantries",
+        "definition": "Expressions of gratitude, generic compliments, emotional rants/frustration without specific order context, or casual greetings.",
+        "keywords": [
+            "\\bthank(?:s| you)?\\b",
+            "\\bgreat service\\b",
+            "\\bkudos\\b",
+            "\\bworst (?:company|service)\\b",
+            "\\bterrible\\b",
+            "\\bhorrible\\b",
+            "\\bhello\\b",
+            "\\bhi there\\b",
+            "\\bgood morning\\b",
+            "\\bshame on you\\b",
+            "\\bdisgusting\\b",
+            "\\bpathetic\\b"
+        ],
+        "risk_level": "LOW",
+        "default_decision": "AUTO_HANDLE"
+    }
+}

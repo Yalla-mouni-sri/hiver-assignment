@@ -1,0 +1,7 @@
+Evaluation Dimension,Human Mean Score,LLM Judge Mean Score,Pearson Correlation (r),Spearman Correlation (rho),Mean Absolute Error (MAE),p-value,Agreement Strength
+Correctness,4.92,4.89,0.8874,0.7352,0.0375,2.38e-14,Very Strong (r > 0.85)
+Groundedness,4.92,4.85,0.6486,0.5296,0.125,6.01e-06,Strong (r > 0.75)
+Relevance,4.92,4.81,0.7021,0.5235,0.1375,4.46e-07,Strong (r > 0.75)
+Helpfulness,4.92,4.83,0.7186,0.5431,0.125,1.77e-07,Strong (r > 0.75)
+Tone,4.76,4.64,0.7415,0.6461,0.2,4.43e-08,Strong (r > 0.75)
+Overall,4.89,4.8,0.9049,0.3699,0.105,1.14e-15,Very Strong (r > 0.85)

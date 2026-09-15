@@ -1,0 +1,10 @@
+conversation_id,customer_message,suggested_intent,confidence,hand_labelled_intent,expected_decision,escalation_reason
+3,@AmazonHelp Please cancel my order #9921 immediately. I entered the wrong delivery address.,DELIVERY_TRACKING,0.75,,,
+1,@AmazonHelp My package #123 was supposed to arrive today but tracking shows delayed. Where is my order?,DELIVERY_TRACKING,1.0,,,
+2,@AmazonHelp I received a damaged pair of headphones. How do I get a replacement or return for a refund?,RETURNS_REFUNDS,1.0,,,
+4,@AmazonHelp I was charged twice on my credit card for the same item. Please refund the duplicate deduction.,PAYMENT_BILLING,1.0,,,
+7,@AmazonHelp Is the Kindle Paperwhite 16GB going to be in stock soon in the UK store?,SUBSCRIPTION_PRIME,0.75,,,
+5,@AmazonHelp Why was I charged for Amazon Prime auto-renewal when I cancelled my subscription last month?,SUBSCRIPTION_PRIME,0.95,,,
+6,@AmazonHelp I cannot log in to my account. It says account locked and I'm not receiving the OTP code.,ACCOUNT_SECURITY,0.98,,,
+9,"@AmazonHelp You guys are the worst company ever, horrible service! Absolutely disgusted.",FEEDBACK_CHITCHAT,0.8999999999999999,,,
+8,@AmazonHelp Thank you so much for the quick help! Awesome support.,FEEDBACK_CHITCHAT,0.75,,,

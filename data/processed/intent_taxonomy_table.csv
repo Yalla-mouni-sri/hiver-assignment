@@ -1,0 +1,9 @@
+Intent Code,Intent Name,Definition,Risk Level,Routing Action
+DELIVERY_TRACKING,Order Delivery & Tracking,"Questions regarding late delivery, tracking number updates, courier delays, or orders marked delivered but not received.",LOW,AUTO_HANDLE
+RETURNS_REFUNDS,"Returns, Refunds & Replacements","Requests for returning an item, inquiring about refund progress, requesting replacement, or reporting damaged, broken, missing, or wrong items.",MEDIUM,AUTO_HANDLE
+CANCELLATION_MODIFICATION,Order Cancellation & Modification,"Requests to cancel an existing order or change order parameters (delivery address, delivery slot, quantity, or shipping method) before dispatch.",MEDIUM,AUTO_HANDLE
+PAYMENT_BILLING,"Payment, Billing & Charges","Issues regarding double charges, unexpected deductions, payment method failures, gift card balances, vouchers, promo codes, or invoice requests.",HIGH,ESCALATE_HUMAN
+SUBSCRIPTION_PRIME,Prime & Digital Subscriptions,"Inquiries or issues regarding Amazon Prime membership, annual renewal charges, Prime Video / Music streaming errors, Kindle Unlimited, or subscription cancellation.",MEDIUM,AUTO_HANDLE
+ACCOUNT_SECURITY,Account Access & Security,"Troubles logging in, password reset issues, two-factor authentication (OTP/2FA) failure, suspended/locked accounts, or suspected unauthorized account access.",CRITICAL,ESCALATE_HUMAN
+PRODUCT_INQUIRY,Product & Stock Inquiry,"Questions regarding stock availability, restock dates, product compatibility, technical specifications, seller authenticity, or warranty coverage.",LOW,AUTO_HANDLE
+FEEDBACK_CHITCHAT,General Feedback & Pleasantries,"Expressions of gratitude, generic compliments, emotional rants/frustration without specific order context, or casual greetings.",LOW,AUTO_HANDLE

@@ -1,0 +1,97 @@
+{
+    "intent_metrics": {
+        "accuracy": 0.96,
+        "macro_precision": 0.9688,
+        "macro_recall": 0.94,
+        "macro_f1": 0.9472,
+        "weighted_f1": 0.9579,
+        "detailed_report": {
+            "ACCOUNT_SECURITY": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 20.0
+            },
+            "CANCELLATION_MODIFICATION": {
+                "precision": 1.0,
+                "recall": 0.96,
+                "f1-score": 0.9795918367346939,
+                "support": 25.0
+            },
+            "DELIVERY_TRACKING": {
+                "precision": 0.9782608695652174,
+                "recall": 1.0,
+                "f1-score": 0.989010989010989,
+                "support": 45.0
+            },
+            "FEEDBACK_CHITCHAT": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 10.0
+            },
+            "PAYMENT_BILLING": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 25.0
+            },
+            "PRODUCT_INQUIRY": {
+                "precision": 1.0,
+                "recall": 0.6,
+                "f1-score": 0.75,
+                "support": 15.0
+            },
+            "RETURNS_REFUNDS": {
+                "precision": 0.9722222222222222,
+                "recall": 1.0,
+                "f1-score": 0.9859154929577465,
+                "support": 35.0
+            },
+            "SUBSCRIPTION_PRIME": {
+                "precision": 0.8,
+                "recall": 0.96,
+                "f1-score": 0.8727272727272727,
+                "support": 25.0
+            },
+            "accuracy": 0.96,
+            "macro avg": {
+                "precision": 0.9688103864734299,
+                "recall": 0.94,
+                "f1-score": 0.9471556989288378,
+                "support": 200.0
+            },
+            "weighted avg": {
+                "precision": 0.9652475845410627,
+                "recall": 0.96,
+                "f1-score": 0.957852572477824,
+                "support": 200.0
+            }
+        }
+    },
+    "escalation_metrics": {
+        "routing_accuracy": 0.995,
+        "escalation_precision": 0.9884,
+        "escalation_recall": 1.0,
+        "escalation_f1": 0.9942,
+        "under_escalation_rate": 0.0,
+        "over_escalation_rate": 0.0087,
+        "under_escalation_count": 0,
+        "over_escalation_count": 1
+    },
+    "retrieval_metrics": {
+        "recall_at_1": 0.925,
+        "recall_at_2": 0.97,
+        "recall_at_3": 0.99,
+        "mrr": 0.952,
+        "intent_grounding_alignment": 0.965
+    },
+    "reply_quality_metrics": {
+        "avg_groundedness": 4.86,
+        "avg_correctness": 4.91,
+        "avg_relevance": 4.92,
+        "avg_helpfulness": 4.72,
+        "avg_tone": 4.63,
+        "overall_quality_score": 4.81
+    }
+}

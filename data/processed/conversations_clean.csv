@@ -1,0 +1,11 @@
+conversation_id,tweet_id,author_id,inbound,text
+1,101,cust1,True,@AmazonHelp My package #123 was supposed to arrive today but tracking shows delayed. Where is my order?
+1,102,AmazonHelp,False,We'd like to look into this. Please DM your order details.
+2,201,cust2,True,@AmazonHelp I received a damaged pair of headphones. How do I get a replacement or return for a refund?
+3,301,cust3,True,@AmazonHelp Please cancel my order #9921 immediately. I entered the wrong delivery address.
+4,401,cust4,True,@AmazonHelp I was charged twice on my credit card for the same item. Please refund the duplicate deduction.
+5,501,cust5,True,@AmazonHelp Why was I charged for Amazon Prime auto-renewal when I cancelled my subscription last month?
+6,601,cust6,True,@AmazonHelp I cannot log in to my account. It says account locked and I'm not receiving the OTP code.
+7,701,cust7,True,@AmazonHelp Is the Kindle Paperwhite 16GB going to be in stock soon in the UK store?
+8,801,cust8,True,@AmazonHelp Thank you so much for the quick help! Awesome support.
+9,901,cust9,True,"@AmazonHelp You guys are the worst company ever, horrible service! Absolutely disgusted."
